@@ -1,6 +1,6 @@
 ## makeCacheMatrix takes an argument of type matrix(). within makeCacheMatrix,
 #initialize i to NULL. x and i are within makeCacheMatrix environment. 
-#set function takes an argument y matrix. y is assigned to x. i is set to NULL
+#set function takes an argument y matrix. y is assigned to x. i is set to NULL 
 # to clear any older value in the inverse in case of a change to the input matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
